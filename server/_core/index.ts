@@ -274,7 +274,10 @@ async function startServer() {
     console.log(`Server listening on port ${port}`)
   );
 }
-await startServer();
+startServer().catch(error => {
+  console.error("Server failed to start:", error);
+  process.exit(1);
+});
 
 export { app };
 export default app;
