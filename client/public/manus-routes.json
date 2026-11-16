@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "LEGAL AID LEGAL SERVICES LLC — Attorney & Law Firm"
+    },
+    { "path": "/about", "title": "About LEGAL AID LEGAL SERVICES LLC" },
+    { "path": "/practice-areas", "title": "Practice Areas" },
+    { "path": "/practice-areas/:slug", "title": "Practice Area" },
+    { "path": "/attorneys", "title": "Our Attorneys" },
+    { "path": "/attorneys/:slug", "title": "Attorney Profile" },
+    { "path": "/insights", "title": "Legal Insights" },
+    { "path": "/insights/:slug", "title": "Legal Insight Article" },
+    { "path": "/contact", "title": "Contact LEGAL AID LEGAL SERVICES LLC" },
+    { "path": "/consultation", "title": "Book a Consultation" },
+    { "path": "/privacy", "title": "Privacy Policy" },
+    { "path": "/terms", "title": "Terms & Conditions" },
+    { "path": "/disclaimer", "title": "Legal Disclaimer" },
+    { "path": "/admin", "title": "Administrator Dashboard" }
+  ]
+}
